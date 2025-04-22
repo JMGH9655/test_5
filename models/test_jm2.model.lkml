@@ -2,6 +2,7 @@ connection: "thelook"
 
 # include all the views
 include: "/views/**/*.view.lkml"
+include: "/dashboards/test_flights.dashboard"
 
 datagroup: test_jm2_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
